@@ -23,7 +23,7 @@ function App() {
       description: 'Teknologia objekti joka on käytetty stackien luontiin',
     },
     {
-      src: '/images/groups.png',
+      src: '/images/stacks.png',
       title: 'Stackit',
       description: 'Stackien luonti',
     },
