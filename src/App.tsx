@@ -6,19 +6,21 @@ function App() {
       src: 'images/graph.png',
       title: 'Neo4j ',
       description: 'Neo4j suhteet',
-      details: 'Tietokannan suhteet',
+      details:
+        'Tietokannan suhteet, eli millä teknologioilla on suhde ominaisuuksiin',
     },
     {
       src: 'images/cypher_query.png',
       title: 'Cypher query',
       description: 'Cypher query joka hakee kaikki featuren teknologiat',
-      details: 'Tietokannan suhteet',
+      details: '',
     },
     {
       src: 'images/techobject.png',
       title: 'Teknologia objekti',
       description: 'Teknologia objektin luonti',
-      details: 'Tietokannan suhteet',
+      details:
+        'Aluksi "litistetään" allTechs taulukko yhdeksi taulukoksi. Mapataan "litistetty" taulukko uudeksi taulukoksi jossa on objekteja. Find-metodia käyttäen etsitään oikea data techsAndWeights taulukosta joka tulee redux-storesta. Filtteröidään sen teknologian painoarvo millä on suhde valittuun ominaisuuteen. Reducen avulla lasketaan kokonais painoarvot. Ja lopuksi palautetaan objekti mikä sisältää teknologian nimen, kategorian ja painoarvon. ',
     },
     {
       src: 'images/techobject_foreach.png',
@@ -195,7 +197,6 @@ function App() {
             masterin hommia.
           </p>
           <div className="space-y-4">
-            {/* Navigation buttons - centered */}
             <div className="flex justify-center space-x-2 overflow-x-auto pb-2">
               {images.map((img, index) => (
                 <div key={index}>
@@ -226,7 +227,7 @@ function App() {
                   </p>
                 </div>
                 <div className="p-4 bg-gray-50 rounded-lg h-fit">
-                  <h3 className="font-semibold text-lg mb-2">Mitä tässä on?</h3>
+                  <h3 className="font-semibold text-lg mb-2">Selitys</h3>
                   <p className="text-gray-700">
                     {images[selectedImage].details}
                   </p>
