@@ -15,8 +15,7 @@ function App() {
     {
       src: '/images/techobject.png',
       title: 'Teknologia objekti',
-      description:
-        'Algorithm for creating and organizing technology groups based on categories',
+      description: 'Teknologia objektin luonti',
     },
     {
       src: '/images/techobject_foreach.png',
@@ -27,6 +26,11 @@ function App() {
       src: '/images/groups.png',
       title: 'Stackit',
       description: 'Stackien luonti',
+    },
+    {
+      src: '/images/outputmodal.png',
+      title: 'Output modal',
+      description: 'Output modaali',
     },
     {
       src: '/images/tc_scrum_taulu.png',
@@ -150,30 +154,39 @@ function App() {
             Tulevaisuus
           </h1>
           <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Debitis
-            iusto quae reprehenderit vitae sunt pariatur provident, fugit sint
-            aliquid molestias velit, magnam quis dicta. Nam suscipit velit odit
-            ut aliquam.
+            Työ johon haluisin sijoittua voisi olla jotain fullstack kehityksen,
+            tietokantojen ja analytiikan väliltä.
+          </p>
+          <p className="mt-2">
+            Tässä opintojaksossa sai hyvän kuvan mitä se työelämä voisi sitten
+            tulevaisuudessa olla tälläisen projektin myötä
+          </p>
+          <p className="mt-2">
+            Lisää backend koodia pitäisi saada tehtyä sekä varmaan myös lisää
+            oppia tekoälyst, koska se nyt on vaan kovaa huutoa tällä hetkellä.
           </p>
         </div>
         <div className="p-6 bg-white rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300">
           <h1 className="text-3xl font-semibold border-b-2 border-indigo-400 pb-2 mb-4">
-            Loppu | Joulu
+            Loppu | Joulukuu
           </h1>
-          <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Debitis
-            iusto quae reprehenderit vitae sunt pariatur provident, fugit sint
-            aliquid molestias velit, magnam quis dicta. Nam suscipit velit odit
-            ut aliquam.
+          <p>Saimme sellaisen projektin tehtyä mitä halusimmekin.</p>
+          <p className="mt-2">
+            Vahvuuteni kyllä lepäät koodin kirjoittamisessa sekä tietokannoissa.
+            Myös sain lisää vahvuuksia tiimityöskentelyyn
           </p>
         </div>
 
         {/*Kuvia */}
         <div className="p-6 bg-white rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300 md:col-span-2">
           <h1 className="text-3xl font-semibold border-b-2 border-indigo-400 pb-2 mb-4">
-            Muutama kuva mitä tuli sitten tehtyä
+            Mitä sitten tuli konkreettisesti tehtyä
           </h1>
-
+          <p className="mb-4">
+            Tässä projektissa olin vastuussa tuosta tietokannasta ja sovelluksen
+            "backendistä", myös tuli tehtyä fronttikoodia sekä hoidettua scrum
+            masterin hommia.
+          </p>
           <div className="space-y-4">
             {/* Navigation buttons - centered */}
             <div className="flex justify-center space-x-2 overflow-x-auto pb-2">
@@ -193,7 +206,6 @@ function App() {
               ))}
             </div>
 
-            {/* Selected image display - centered with max-width */}
             <div className="flex justify-center">
               <div className="mt-4 max-w-3xl">
                 <img
