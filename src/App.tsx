@@ -3,39 +3,46 @@ import { useState } from 'react';
 function App() {
   const images = [
     {
-      src: '/images/graph.png',
+      src: 'images/graph.png',
       title: 'Neo4j ',
       description: 'Neo4j suhteet',
+      details: 'Tietokannan suhteet',
     },
     {
       src: 'images/cypher_query.png',
       title: 'Cypher query',
       description: 'Cypher query joka hakee kaikki featuren teknologiat',
+      details: 'Tietokannan suhteet',
     },
     {
-      src: '/images/techobject.png',
+      src: 'images/techobject.png',
       title: 'Teknologia objekti',
       description: 'Teknologia objektin luonti',
+      details: 'Tietokannan suhteet',
     },
     {
-      src: '/images/techobject_foreach.png',
+      src: 'images/techobject_foreach.png',
       title: 'Teknologia objekti foreach',
       description: 'Teknologia objekti joka on käytetty stackien luontiin',
+      details: 'Tietokannan suhteet',
     },
     {
-      src: '/images/stacks.png',
+      src: 'images/stacks.png',
       title: 'Stackit',
       description: 'Stackien luonti',
+      details: 'Tietokannan suhteet',
     },
     {
-      src: '/images/outputmodal.png',
+      src: 'images/outputmodal.png',
       title: 'Output modal',
       description: 'Output modaali',
+      details: 'Tietokannan suhteet',
     },
     {
-      src: '/images/tc_scrum_taulu.png',
+      src: 'images/tc_scrum_taulu.png',
       title: 'Meidän backlogi',
       description: 'Meidän backlogi',
+      details: 'Tietokannan suhteet',
     },
   ];
   const [selectedImage, setSelectedImage] = useState(0);
@@ -163,7 +170,7 @@ function App() {
           </p>
           <p className="mt-2">
             Lisää backend koodia pitäisi saada tehtyä sekä varmaan myös lisää
-            oppia tekoälyst, koska se nyt on vaan kovaa huutoa tällä hetkellä.
+            oppia tekoälystä, koska se nyt on vaan kovaa huutoa tällä hetkellä.
           </p>
         </div>
         <div className="p-6 bg-white rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300">
@@ -207,15 +214,23 @@ function App() {
             </div>
 
             <div className="flex justify-center">
-              <div className="mt-4 max-w-3xl">
-                <img
-                  src={images[selectedImage].src}
-                  alt={images[selectedImage].title}
-                  className="w-full h-auto rounded-lg shadow-md"
-                />
-                <p className="mt-2 text-gray-600 italic text-center">
-                  {images[selectedImage].description}
-                </p>
+              <div className="mt-4 max-w-5xl grid grid-cols-1 md:grid-cols-3 gap-4">
+                <div className="md:col-span-2">
+                  <img
+                    src={images[selectedImage].src}
+                    alt={images[selectedImage].title}
+                    className="w-full h-auto rounded-lg shadow-md "
+                  />
+                  <p className="mt-2 text-gray-600 italic text-center">
+                    {images[selectedImage].description}
+                  </p>
+                </div>
+                <div className="p-4 bg-gray-50 rounded-lg h-fit">
+                  <h3 className="font-semibold text-lg mb-2">Mitä tässä on?</h3>
+                  <p className="text-gray-700">
+                    {images[selectedImage].details}
+                  </p>
+                </div>
               </div>
             </div>
           </div>
