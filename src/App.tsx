@@ -49,7 +49,12 @@ function App() {
     },
     {
       src: 'images/tc_scrum_taulu.png',
-      title: 'Meidän backlogi',
+      title: 'Meidän backlogi #1',
+      description: 'Meidän backlogi',
+    },
+    {
+      src: 'images/tc_scrum_taulu_2.png',
+      title: 'Meidän backlogi #2',
       description: 'Meidän backlogi',
     },
   ];
