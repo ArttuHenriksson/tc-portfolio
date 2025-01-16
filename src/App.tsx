@@ -3,18 +3,23 @@ import { useState } from 'react';
 function App() {
   const images = [
     {
-      src: 'images/graph.png',
+      src: 'images/neo4j_1.png',
+      title: 'Neo4j ',
+      description: 'Neo4j suhteet',
+    },
+    {
+      src: 'images/neo4j_2.png',
       title: 'Neo4j ',
       description: 'Neo4j suhteet',
     },
     {
       src: 'images/query_1.png',
-      title: 'Cypher query',
+      title: 'Cypher query #1',
       description: 'Lisää teksti',
     },
     {
       src: 'images/query_2.png',
-      title: 'Cypher query',
+      title: 'Cypher query #2',
       description: 'Lisää teksti',
     },
 
@@ -34,7 +39,7 @@ function App() {
       description: 'Stackien luonti',
     },
     {
-      src: 'images/outputmodal.png',
+      src: 'images/output_modal.png',
       title: 'Output modal',
       description: 'Output modaali',
     },
