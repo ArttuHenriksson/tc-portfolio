@@ -219,7 +219,7 @@ function App() {
           </h1>
           <p className="mb-4">
             Projektissa olin vastuussa tietokannasta sekä "backendistä", myös
-            tuli fronttikoodia kirjoitettua. Sekä tehtyä scrum masterin hommia.
+            tuli fronttikoodia kirjoitettua sekä tehtyä scrum masterin hommia.
           </p>
           <p className="mt-4 mb-4">Alhaalla muutama kuva mitä tuli tehtyä.</p>
           <div className="space-y-4">
