@@ -100,12 +100,12 @@ function App() {
             <p className="mt-2">
               Tavoitteisiin päästiin ja ei päästy, sanottaisiinko näin.
               Varsinaista backend kehitystä en päässyt tekemään esimerkiksi
-              Expressin tai vastavaan frameworkin kanssa. Mutta frontendistä
+              Expressin tai vastaavan frameworkin kanssa. Mutta frontendistä
               opittiin uutta taas senkin edestä, kun packy tehtiin käyttäen
               NextJS:ää.{' '}
               <span className="font-bold text-indigo-500"> React</span> oli
               itselleni ihan täysin uusi asia, mutta TC:n jälkeen sekin tuli
-              opittua, myös uutena asiana tuli tietokantamme
+              opittua myös uutena asiana tuli tietokantamme
               <span className="font-bold text-indigo-500"> Neo4j</span>. Samalla
               tuli opittua tilanhallinnasta käyttäen{' '}
               <span className="font-bold text-indigo-500">Reduxia</span>
@@ -134,7 +134,7 @@ function App() {
             olisin/olisimme säästyneet muutamalta turhalta työtunnilta.
           </p>
           <p className="mt-2">
-            Kun toimi scrum masterina tulihan siinäkin opittua jonkinlaista
+            Kun toimin scrum masterina tulihan siinäkin opittua jonkinlaista
             projektin hallintaa, koska piti miettiä sprintin pituudet ja
             tekemiset. Ja loppua kohden tuli opittua miten isoja kokonaisuuksia
             pilkotaan pieneimmiksi osiksi.
@@ -169,7 +169,7 @@ function App() {
           </p>
           <p>
             {' '}
-            Lopulta tajusin että miksi ei voisi vain katso monta suhdetta
+            Lopulta tajusin että miksi ei voisi vain katsoa monta suhdetta
             ominaisuudella on teknologioihin ja niiden perusteella tehdä ne
             stäkit.
           </p>
@@ -186,7 +186,7 @@ function App() {
           <p className="mt-2">
             Tässä opintojaksolla tuli työskentelyä tietokantojen kanssa sekä
             fullstack kehitystä. Tykkäsin TC:stä koska tässä sai itse valita
-            mitä halusi tehdö sekä pääsi laittamaan opit käytäntöön
+            mitä halusi tehdä sekä pääsi laittamaan opit käytäntöön
           </p>
           <p className="mt-2">
             Lisää toistoja pitäisi saada backendin puolelta sekä lisäoppia
@@ -198,13 +198,13 @@ function App() {
             Loppu | Joulukuu
           </h1>
           <p>
-            Saimme sellaisin projektin mitä olimme suunnitelleet ja vähän ehkä
-            hieman enemmänkin.
+            Saimme sellaisen tehdyksi projektin mitä olimme suunnitelleet ja
+            vähän ehkä hieman enemmänkin.
           </p>
           <p className="mt-2">
             Vaikka kyseessä oli yksi kurssi, niin tuntui että siinä oli kolme
             kurssia samaan aikaan kun piti opetella Reactia sekä Neo4j:tä, mutta
-            hyvinn siitä selvittiin.
+            hyvin siitä selvittiin.
           </p>
           <p className="mt-2">
             Vahvuuteni ovat koodin kirjoittamisessa. Tämä ala ja suuntautuminen
