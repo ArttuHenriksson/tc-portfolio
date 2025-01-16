@@ -9,7 +9,7 @@ function App() {
     },
     {
       src: 'images/neo4j_2.png',
-      title: 'Neo4j ',
+      title: 'Neo4j #2',
       description: 'Neo4j nodeja.',
     },
     {
@@ -90,7 +90,7 @@ function App() {
             <span className="font-bold text-indigo-500"> backend</span> sekä
             <span className="font-bold text-indigo-500"> frontend</span>{' '}
             kehityksessä sekä saada lisää toistoja{' '}
-            <span className="font-bold text-indigo-500"> gitin</span> käytön
+            <span className="font-bold text-indigo-500"> Gitin</span> käytön
             kanssa.
             <p className="mt-2">
               Tavoitteisiin päästiin ja ei päästy, sanottaisiinko näin.
@@ -101,7 +101,14 @@ function App() {
               <span className="font-bold text-indigo-500"> React</span> oli
               itselleni ihan täysin uusi asia, mutta TC:n jälkeen sekin tuli
               opittua, myös uutena asiana tuli tietokantamme
-              <span className="font-bold text-indigo-500"> Neo4j</span>.
+              <span className="font-bold text-indigo-500"> Neo4j</span>. Samalla
+              tuli opittua tilanhallinnasta käyttäen{' '}
+              <span className="font-bold text-indigo-500">Reduxia</span>
+              <p className="mt-4">
+                Tavoitteiden ulkopuolelta olisin halunnut oppia käyttämään
+                AWS:ää ihan konkreettisesti sovellusprojektin kanssa, mutta me
+                emme päätyneet käyttämään AWS:ää.
+              </p>
             </p>
           </p>
         </div>
@@ -122,11 +129,10 @@ function App() {
             olisin/olisimme säästyneet muutamalta turhalta työtunnilta.
           </p>
           <p className="mt-2">
-            Kai opeiksi voisi myös laskea tuon reactin, reduxin sekä neo4j:n. Ja
-            tottakai tulihan myös opittua miten scrum toimii käytännössä sekä
-            tietenkin ryhmätyöskentely taidot parantuivat. Ja tällä kurssilla
-            sai myös hieman käytännön tuntua miltä se työelämä sitten voisi
-            esimerkiksi olla
+            Kun toimi scrum masterina tulihan siinäkin opittua jonkinlaista
+            projektin hallintaa, koska piti miettiä sprintin pituudet ja
+            tekemiset. Ja loppua kohden tuli opittua miten isoja kokonaisuuksia
+            pilkotaan pieneimmiksi osiksi.
           </p>
         </div>
 
@@ -169,26 +175,35 @@ function App() {
             Tulevaisuus
           </h1>
           <p>
-            Työ johon haluisin sijoittua voisi olla jotain fullstack kehityksen,
-            tietokantojen ja analytiikan väliltä.
+            Tulevaisuudessa haluaisin työskennellä joko fullstack kehittäjänä
+            tai työskennellä tietokantojen, analytiikan sekä tekoälyn parissa.
           </p>
           <p className="mt-2">
-            Tässä opintojaksossa sai hyvän kuvan mitä se työelämä voisi sitten
-            tulevaisuudessa olla tälläisen projektin myötä
+            Tässä opintojaksolla tuli työskentelyä tietokantojen kanssa sekä
+            fullstack kehitystä. Tykkäsin TC:stä koska tässä sai itse valita
+            mitä halusi tehdö sekä pääsi laittamaan opit käytäntöön
           </p>
           <p className="mt-2">
-            Lisää backend koodia pitäisi saada tehtyä sekä varmaan myös lisää
-            oppia tekoälystä, koska se nyt on vaan kovaa huutoa tällä hetkellä.
+            Lisää toistoja pitäisi saada backendin puolelta sekä lisäoppia
+            tekoälystä
           </p>
         </div>
         <div className="p-6 bg-white rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300">
           <h1 className="text-3xl font-semibold border-b-2 border-indigo-400 pb-2 mb-4">
             Loppu | Joulukuu
           </h1>
-          <p>Saimme sellaisen projektin tehtyä mitä halusimmekin.</p>
+          <p>
+            Saimme sellaisin projektin mitä olimme suunnitelleet ja vähän ehkä
+            hieman enemmänkin.
+          </p>
           <p className="mt-2">
-            Vahvuuteni kyllä lepäät koodin kirjoittamisessa sekä tietokannoissa.
-            Myös sain lisää vahvuuksia tiimityöskentelyyn
+            Vaikka kyseessä oli yksi kurssi, niin tuntui että siinä oli kolme
+            kurssia samaan aikaan kun piti opetella Reactia sekä Neo4j:tä, mutta
+            hyvinn siitä selvittiin.
+          </p>
+          <p className="mt-2">
+            Vahvuuteni ovat koodin kirjoittamisessa. Tämä ala ja suuntautuminen
+            fullstackin puoleen tuntuu edelleen oikealta.
           </p>
         </div>
 
@@ -198,10 +213,10 @@ function App() {
             Mitä sitten tuli konkreettisesti tehtyä
           </h1>
           <p className="mb-4">
-            Tässä projektissa olin vastuussa tuosta tietokannasta ja sovelluksen
-            "backendistä", myös tuli tehtyä fronttikoodia sekä hoidettua scrum
-            masterin hommia.
+            Projektissa olin vastuussa tietokannasta sekä "backendistä", myös
+            tuli fronttikoodia kirjoitettua. Sekä tehtyä scrum masterin hommia.
           </p>
+          <p className="mt-4 mb-4">Alhaalla muutama kuva mitä tuli tehtyä.</p>
           <div className="space-y-4">
             <div className="flex justify-center space-x-2 overflow-x-auto pb-2">
               {images.map((img, index) => (
