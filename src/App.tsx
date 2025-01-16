@@ -4,44 +4,48 @@ function App() {
   const images = [
     {
       src: 'images/neo4j_1.png',
-      title: 'Neo4j ',
-      description: 'Neo4j suhteet',
+      title: 'Neo4j #1',
+      description: 'Suhteet teknologioiden ja ominaisuuksien välillä.',
     },
     {
       src: 'images/neo4j_2.png',
       title: 'Neo4j ',
-      description: 'Neo4j suhteet',
+      description: 'Neo4j nodeja.',
     },
     {
       src: 'images/query_1.png',
       title: 'Cypher query #1',
-      description: 'Lisää teksti',
+      description:
+        'Cypher query teknologioiden hakemiseen valituille ominaisuuksille.',
     },
     {
       src: 'images/query_2.png',
       title: 'Cypher query #2',
-      description: 'Lisää teksti',
+      description:
+        'Kaikkien ominaisuuksien haku ja sen ominaisuuden teknologioiden ja painoarvojen.',
     },
 
     {
       src: 'images/techobject.png',
       title: 'Teknologia objekti #1',
-      description: 'Teknologia objektin luonti',
+      description:
+        'Teknologia objektin luonti, mikä sisältää teknologian, kategorian ja lasketun painoarvon.',
     },
     {
       src: 'images/techobject_foreach.png',
       title: 'Teknologia objekti #2',
-      description: 'Teknologia objekti joka on käytetty stackien luontiin',
+      description: 'Järjestetään teknologiat oikeisiin kategorioihin.',
     },
     {
       src: 'images/stacks.png',
-      title: 'Stackit',
-      description: 'Stackien luonti',
+      title: 'Tech stacks',
+      description:
+        'Luoodaan taulukko, jossa jokainen ryhmä sisältää teknologian pakollisesta kategoriasta.',
     },
     {
       src: 'images/output_modal.png',
       title: 'Output modal',
-      description: 'Output modaali',
+      description: 'Output modaali itse valmiista sovelluksesta',
     },
     {
       src: 'images/tc_scrum_taulu.png',
