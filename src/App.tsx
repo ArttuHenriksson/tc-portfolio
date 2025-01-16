@@ -8,10 +8,16 @@ function App() {
       description: 'Neo4j suhteet',
     },
     {
-      src: 'images/cypher_query.png',
+      src: 'images/query_1.png',
       title: 'Cypher query',
-      description: 'Cypher query joka hakee kaikki featuren teknologiat',
+      description: 'Lisää teksti',
     },
+    {
+      src: 'images/query_2.png',
+      title: 'Cypher query',
+      description: 'Lisää teksti',
+    },
+
     {
       src: 'images/techobject.png',
       title: 'Teknologia objekti #1',
