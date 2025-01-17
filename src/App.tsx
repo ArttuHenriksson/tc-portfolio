@@ -215,13 +215,13 @@ function App() {
         {/*Kuvia */}
         <div className="p-6 bg-white rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300 md:col-span-2">
           <h1 className="text-3xl font-semibold border-b-2 border-indigo-400 pb-2 mb-4">
-            Mitä sitten tuli konkreettisesti tehtyä
+            Tekemiset
           </h1>
           <p className="mb-4">
             Projektissa olin vastuussa tietokannasta sekä "backendistä", myös
             tuli fronttikoodia kirjoitettua sekä tehtyä scrum masterin hommia.
           </p>
-          <p className="mt-4 mb-4">Alhaalla muutama kuva mitä tuli tehtyä.</p>
+
           <div className="space-y-4">
             <div className="flex justify-center space-x-2 overflow-x-auto pb-2">
               {images.map((img, index) => (
