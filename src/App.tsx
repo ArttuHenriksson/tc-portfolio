@@ -198,8 +198,8 @@ function App() {
             Loppu | Joulukuu
           </h1>
           <p>
-            Saimme sellaisen tehdyksi projektin mitä olimme suunnitelleet ja
-            vähän ehkä hieman enemmänkin.
+            Saimme sellaisen projektin tehdyksi mitä olimme suunnitelleet ja
+            vähän ehkä enemmänkin.
           </p>
           <p className="mt-2">
             Vaikka kyseessä oli yksi kurssi, niin tuntui että siinä oli kolme
